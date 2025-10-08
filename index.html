@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Study Planner — PWA</title>
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="theme-color" content="#4f46e5"/>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Study Planner</h1>
+      <p class="subtitle">Simple offline-capable to-do for study tasks</p>
+    </header>
+    <section class="add">
+      <input id="taskInput" placeholder="Add new task..." />
+      <button id="addBtn">Add</button>
+    </section>
+    <section id="tasks" class="tasks"></section>
+    <footer>
+      <small>Built for class PWA assignment — customize with your name.</small>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
